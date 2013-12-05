@@ -1,0 +1,1 @@
+http://www.wolframalpha.com/input/?i=bisection+method+x+%2B+%28x^%281%2F3%29%29-6.09+%3D+0%2C+x+%3D+4+to+5
