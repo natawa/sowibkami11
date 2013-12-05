@@ -118,7 +118,7 @@ begin
               exit;
             end;
           until abs(my_graph(x)) < h;
-          val(edit3.Text, a, code); ///121
+          val(edit1.Text, a, code); ///121
           val(edit2.Text, b, code);
           i := a;
           Chart1LineSeries1.Clear;
@@ -129,7 +129,7 @@ begin
           end;
           Str(x: 3: 3, s1);
           Str(my_graph(x): 4: 4, s2);
-          memo1.Lines.add('Корінь = ' + s3);     //132 с3
+          memo1.Lines.add('Корінь = ' + s1);     //132 с3
           memo1.Lines.add('  F(x)=  ' + s2);
         end;
       end;
